@@ -2,4 +2,7 @@ build:
 	rm -rf dist && npm run build
 
 lint:
-	npx eslint .
+	npx eslint . && npm run lint
+
+release:
+	npm run release

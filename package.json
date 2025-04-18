@@ -2,16 +2,25 @@
   "name": "@hexlet/analytics-plugin-carrotquest",
   "version": "0.1.0",
   "type": "module",
-  "description": "CarrotQuest plugin for Analytics",
+  "description": "CarrotQuest plugin for DavidWells Analytics",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc --build"
+    "build": "tsc --build",
+    "lint": "tsc --noEmit",
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Hexlet/analytics-plugin-carrotquest.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "analytics",
+    "CarrotQuest"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
